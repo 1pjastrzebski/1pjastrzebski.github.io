@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MX-5 NC</title>
+    <link rel="stylesheet" href="podstrony.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html" class="logo_mazdy"><img src="images/rectangle_15.png" alt=""></a>
+            <nav id="nav">
+              <div class="nav" id="nav1"></div>
+              <div class="nav" id="nav2"></div>
+              <div class="nav" id="nav3"></div>
+            </nav>
+          </header>
+          <main>
+              <article class="menu">
+              <ol class="menu" id="menu">
+                <li>
+                  <a href="oNas.html" class="menu1">o nas</a>
+                </li>
+    
+                <li>
+                  <a href="jazda_probna.html" class="menu1">umów jazdę próbną</a>
+                </li>
+    
+                <li>
+                  <a href="konfigurator.html" class="menu1">konfigurator</a>
+                </li>
+              </ol>
+            </article>
+            <article class="a1">
+                <header><h1>MX-5 NC</h1></header>
+                <img src="images/NC.png" alt="">
+            </article>
+            <article class="a2">
+                <p>Mazda MX-5 NC to trzecia generacja popularnego sportowego roadstera, który był produkowany w latach 2005-2015. Samochód został zaprojektowany z myślą o zachowaniu charakterystycznych cech modelu MX-5, takich jak lekkość i zwinność, ale jednocześnie wprowadzono do niego szereg nowoczesnych rozwiązań.
+
+                  MX-5 NC był dostępny z dwoma rodzajami nadwozia - roadster oraz coupe-cabrio, a także z dwoma silnikami benzynowymi o pojemności 1.8 i 2.0 litrów, które oferowały moc odpowiednio 126 i 160 koni mechanicznych. Standardowo wyposażony był m.in. w klimatyzację, elektryczne szyby oraz lusterka, a także w system audio z CD, MP3 i portem USB.
+                  
+                  Charakterystycznymi cechami MX-5 NC są m.in. niska masa całkowita (ok. 1 tonę), niskie położenie środka ciężkości, a także idealna równowaga rozkładu masy na obie osie. Dzięki temu samochód oferował znakomite właściwości jezdne i wspaniałe wrażenia z jazdy.</p>
+            </article>
+        </main>    
+    </div>
+    <script>
+        let x = 0;
+      document.getElementById("nav").addEventListener("click", menu);
+      const visible = 'visible'
+      const hidden = 'hidden'
+      document.getElementById("menu").style.zIndex = 0;
+      document.getElementById("menu").style.visibility = hidden;
+      function menu() {
+        if(x == 0){
+            x = 100;
+            document.getElementById("menu").style.visibility = visible;
+            document.getElementById("menu").style.zIndex = x;
+            
+        }else{
+            x = 0;
+            document.getElementById("menu").style.visibility = hidden;
+            document.getElementById("menu").style.zIndex = x;
+        }
+      }
+    </script>
+</body>
+</html>
