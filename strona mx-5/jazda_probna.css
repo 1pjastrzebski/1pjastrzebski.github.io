@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: #413f3f;
+}
+.container * {
+  display: flex;
+  flex-wrap: wrap;
+}
+div > header {
+  display: flex;
+  height: 120px;
+  background-color: black;
+  flex-basis: 100%;
+}
+.mazda {
+  flex-basis: 100%;
+}
+a > img {
+  position: absolute;
+
+  height: 120px;
+}
+.menu {
+  display: flex;
+  visibility: hidden;
+
+  flex-basis: 100%;
+  height: 120px;
+  left: 0px;
+  top: 120px;
+  font-family: "Inter";
+  font-style: normal;
+
+  font-size: 40px;
+  line-height: 48px;
+
+  justify-content: space-around;
+  color: #ffffff;
+  background-color: #2e2d2d;
+  align-items: center;
+}
+.menu1 {
+  background-color: #2e2d2d;
+  text-decoration: none;
+  color: white;
+}
+.nav {
+  position: absolute;
+  width: 50px;
+  height: 6px;
+  display: flex;
+  flex-direction: column;
+  left: 95%;
+  background: #d9d9d9;
+  border-radius: 50px;
+}
+#nav1 {
+  top: 2.5em;
+}
+#nav2 {
+  top: 3.3em;
+}
+#nav3 {
+  top: 4.1em;
+}
+.tak {
+  background-color: #7e0a0a;
+
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  top: 15%;
+}
+.daty {
+  display: flex;
+  flex-direction: column;
+  background-color: #7e0a0a;
+  justify-content: space-around;
+  flex-basis: 45%;
+  align-items: center;
+}
+.data1 {
+  font-family: "Inter";
+  font-style: normal;
+  padding: 0.5em 1em;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.dostep {
+  display: flex;
+  flex-direction: column;
+  background-color: #7e0a0a;
+  justify-content: space-around;
+  flex-basis: 55%;
+  align-items: center;
+}
+.dostep1 {
+  font-family: "Inter";
+  font-style: normal;
+  padding: 0.5em 5em;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: black;
+}
+#odp {
+  position: absolute;
+
+  background: #413f3f;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 35px;
+  line-height: 42px;
+  padding: 1em;
+  width: 32.5%;
+  height: 407px;
+  left: 56%.3;
+  top: 55%;
+
+  color: #ffffff;
+}
