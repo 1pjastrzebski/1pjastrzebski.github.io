@@ -20,7 +20,7 @@ div > header {
 }
 a > img {
   position: absolute;
-  height: 9.5%;
+  height: 7em;
 }
 .menu {
   display: flex;
@@ -64,11 +64,10 @@ a > img {
 
 .a2 > header {
   position: absolute;
-  width: 30%;
-  height: 10%;
-  left: 57%;
+  
+  width: 40%;
+  left: 55%;
   top: 15%;
-
   font-family: "Inter";
   font-style: normal;
 
@@ -88,7 +87,7 @@ a > img {
 
   left: 55%;
   top: 30%;
-
+  overflow: scroll;
   font-family: "Inter";
   font-style: normal;
 
@@ -97,8 +96,8 @@ a > img {
   color: #ffffff;
 }
 .btn {
-  width: 400%;
-  height: 9%;
+  width: 300%;
+  
   background: #7e0a0a;
   border: 1px solid #000000;
   border-radius: 45px;
@@ -115,6 +114,9 @@ a > img {
   justify-content: center;
   text-decoration: none;
   flex-basis: 55%;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
 }
 /* .btn > p{
     left: 5em;
@@ -136,12 +138,13 @@ a > img {
   display: flex;
   flex-direction: column;
   flex-basis: 55%;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   position: absolute;
   top: 51%;
-  left: 5%;
+  left: 9%;
   width: 8%;
+  align-items: center;
 }
 .nav {
   position: absolute;
