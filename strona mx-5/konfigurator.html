@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Filip Jastrzębski 1P">
-
     <title>O NAS</title>
     <link rel="stylesheet" href="konfigurator.css" />
   </head>
@@ -24,15 +22,15 @@
       <main>
         <article class="menu">
           <ol class="menu" id="menu">
-            <li>
-              <a class="menu1">o nas</a>
+            <li class="menu1">
+              <a href="oNas.html" class="menu1">o nas</a>
             </li>
 
-            <li>
+            <li class="menu1">
               <a href="jazda_probna.html" class="menu1">umów jazdę próbną</a>
             </li>
 
-            <li>
+            <li class="menu1">
               <a href="konfigurator.html" class="menu1">konfigurator</a>
             </li>
           </ol>
@@ -41,7 +39,8 @@
           <div class="tak">
             <form class="formularz">
               <label for="generation" class="formularz">Generacja:</label>
-              <select id="generation" name="generation" class="wybor">
+              <select id="generation" name="generation" class="wybor" >
+                <option value="" selected disabled hidden></option>
                 <option value="NA">NA (1989-1997)</option>
                 <option value="NB">NB (1998-2005)</option>
                 <option value="NC">NC (2006-2015)</option>
@@ -159,9 +158,9 @@
       let x = 0;
       document.getElementById("nav").addEventListener("click", menu);
       const model = document.getElementsByName("model").values;
-      if (model == "MX-5 NA") {
+      /* if (model == "MX-5 NA") {
         alert("tak");
-      }
+      } */
       const visible = "visible";
       const hidden = "hidden";
       document.getElementById("menu").style.zIndex = 0;

@@ -19,8 +19,7 @@ div > header {
   flex-basis: 100%;
 }
 a > img {
-  position: absolute;
-
+  
   height: 120px;
 }
 .menu {
@@ -100,8 +99,10 @@ a > img {
   justify-content: space-around;
   flex-basis: 55%;
   align-items: center;
+  flex-basis: 50%;
 }
 .dostep1 {
+  display: flex;
   font-family: "Inter";
   font-style: normal;
   padding: 0.5em 5em;
@@ -111,6 +112,7 @@ a > img {
   border-radius: 5px;
   color: #ffffff;
   background-color: black;
+  flex-wrap: nowrap;
 }
 #odp {
   position: absolute;
@@ -121,9 +123,9 @@ a > img {
   font-size: 35px;
   line-height: 42px;
   padding: 1em;
-  width: 32.5%;
-  height: 407px;
-  left: 56%.3;
+  width: 36.6%;
+  
+  flex-wrap: nowrap;
   top: 55%;
 
   color: #ffffff;

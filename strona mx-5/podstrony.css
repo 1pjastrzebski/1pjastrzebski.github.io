@@ -19,7 +19,7 @@ div > header {
   flex-basis: 100%;
 }
 a > img {
-  position: absolute;
+  
   
   height: 120px;
 }
@@ -41,6 +41,7 @@ a > img {
   color: #ffffff;
   background-color: #2e2d2d;
   align-items: center;
+  text-decoration: none;
 }
 .menu1 {
   background-color: #2e2d2d;

@@ -19,8 +19,9 @@ div > header {
   flex-basis: 100%;
 }
 a > img {
-  position: absolute;
-  height: 7em;
+  
+  
+  height: 120px;
 }
 .menu {
   display: flex;
